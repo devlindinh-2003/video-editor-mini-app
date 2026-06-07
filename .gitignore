@@ -8,15 +8,8 @@ frontend/dist/
 # Environment secrets — copy .env.example and fill in values
 .env
 
-# Runtime data — directories are preserved via .gitkeep files
-data/downloads/*
-data/clips/*
-data/exports/*
-data/temp/*
-!data/downloads/.gitkeep
-!data/clips/.gitkeep
-!data/exports/.gitkeep
-!data/temp/.gitkeep
+# Runtime data (auto-created by the app on startup — do not commit)
+**/data/
 
 # Test coverage
 backend/coverage/
