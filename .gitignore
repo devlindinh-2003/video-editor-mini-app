@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+backend/dist/
+frontend/dist/
+
+# Environment secrets — copy .env.example and fill in values
+.env
+
+# Runtime data — directories are preserved via .gitkeep files
+data/downloads/*
+data/clips/*
+data/exports/*
+data/temp/*
+!data/downloads/.gitkeep
+!data/clips/.gitkeep
+!data/exports/.gitkeep
+!data/temp/.gitkeep
+
+# Test coverage
+backend/coverage/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Log files
+*.log
+npm-debug.log*
+
+# Case study / interview materials (not for public repo)
+🎯fullstack-engineer-case-study.pdf
+Tasks/
